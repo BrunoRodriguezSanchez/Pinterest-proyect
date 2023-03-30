@@ -24,10 +24,14 @@ body{
     height: 60px;
 }
 
+.menu-derecha img{
+    height: 85px;
+    padding: 30px 20px 4px 20px;
+}
 
 
 input.src{
-    padding: 30px 2235px 24px 60px;
+    padding: 30px 2235px 24px 70px;
     outline-color: rgb(78, 181, 225);
     font-size: 32px;
     border-radius: 50px;
@@ -44,10 +48,13 @@ input.src{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-content: space-around;
+    align-self: stretch
 
 }
 .Galeria img{
-    max-width: 1000px;
-    max-height: 800px;
+    min-height: 400px;
+    max-height: 1000px;
     
 }
+
