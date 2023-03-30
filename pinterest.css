@@ -1,11 +1,13 @@
 *{
     font-family: 'Roboto', sans-serif;
-    font-size:
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 header{
-    font-size: 30px;
-    display: flexbox;
+    font-size: 35px;
+    display: flex;
     align-items: center;
 }
 
@@ -16,27 +18,20 @@ body{
 }
 
 .logo img{
-    height: 80px;
+    height: 70px;
 }
 
-.menu-buscador{
-    
-    position: absolute;
-    top:50%
-    left:50%
-}
+
 
 input.src{
-    padding: 10px 1000px 10px 50px;
-    outline:  none;
+    padding: 10px 1000px 10px 60px;
+    outline-color: rgb(78, 181, 225);
+    
     font-size: 30px;
     border-radius: 50px;
     color: rgb(119, 118, 118);
     border: 3px solid #e5e5e5;
     background-color: #e5e5e5;
-    width: 60px;
-    transition: all .5s;
     
-
 }
 
