@@ -1,13 +1,27 @@
 *{
     font-family: 'Roboto', sans-serif;
     font-size:
+}
 
+header{
+    font-size: 30px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
 }
 
 .logo img{
     height: 80px;
 }
 
-header{
-    font-size: 30px;
+.menu-izquierda{
+    position: absolute;
+    top:50%
+    left:50%
+    transform:
+
 }
+
