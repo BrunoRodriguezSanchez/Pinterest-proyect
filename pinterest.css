@@ -9,6 +9,8 @@ header{
     font-size: 35px;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    padding: 32px;
 }
 
 body{
@@ -24,10 +26,10 @@ body{
 
 
 input.src{
-    padding: 10px 1000px 10px 60px;
+    padding: 30px 2235px 24px 40px;
     outline-color: rgb(78, 181, 225);
     
-    font-size: 30px;
+    font-size: 32px;
     border-radius: 50px;
     color: rgb(119, 118, 118);
     border: 3px solid #e5e5e5;
