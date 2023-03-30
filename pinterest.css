@@ -5,6 +5,8 @@
 
 header{
     font-size: 30px;
+    display: flexbox;
+    align-items: center;
 }
 
 body{
@@ -17,11 +19,24 @@ body{
     height: 80px;
 }
 
-.menu-izquierda{
+.menu-buscador{
+    
     position: absolute;
     top:50%
     left:50%
-    transform:
+}
+
+input.src{
+    padding: 10px 1000px 10px 50px;
+    outline:  none;
+    font-size: 30px;
+    border-radius: 50px;
+    color: rgb(119, 118, 118);
+    border: 3px solid #e5e5e5;
+    background-color: #e5e5e5;
+    width: 60px;
+    transition: all .5s;
+    
 
 }
 
