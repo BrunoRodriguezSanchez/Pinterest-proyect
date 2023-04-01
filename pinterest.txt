@@ -1,0 +1,3 @@
+Notas para el archivo pinterest
+
+El padding del header y la parte de Galeria esta personalizado para un monitor de mayor tamaño que la de mi laptop, se debe corregir esa parte
