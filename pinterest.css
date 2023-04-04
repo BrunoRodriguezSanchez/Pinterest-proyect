@@ -24,14 +24,15 @@ body{
     height: 60px;
 }
 
+
 .menu-derecha img{
-    height: 85px;
+    height: 80px;
     padding: 30px 20px 4px 20px;
 }
 
 
 input.src{
-    padding: 30px 2235px 24px 70px;
+    padding: 30px 1000px 24px 100px;
     outline-color: rgb(78, 181, 225);
     font-size: 32px;
     border-radius: 50px;
