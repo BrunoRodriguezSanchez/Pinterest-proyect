@@ -2,4 +2,6 @@ Notas para el archivo pinterest
 
 El padding del header y la parte de Galeria esta personalizado para un monitor de mayor tamaño que la de mi laptop, se debe corregir esa parte
 
-se corrigio los menus desplegables del lado derecho
+se corrigio los menus desplegables del lado izquierdo
+
+se esta corrigiendo el logo de pinterest lateral y el backgroubnd del menu inicio

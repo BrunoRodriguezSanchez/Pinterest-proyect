@@ -11,28 +11,46 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 32px;
+    padding-top: 32px;
 }
 
-body{
-    margin: 0;
-    padding: 0;
-    background-color: #fff;
-}
 
 .logo img{
-    height: 60px;
+    height: 100px;
+    width: 100px;
+    padding: 20px 20px 20px 20px;
+    border: 0px;
+    margin: 0px;
 }
 
-
-.menu-derecha img{
-    height: 80px;
-    padding: 30px 20px 4px 20px;
+.logo:hover{
+    background-color: #e5e5e5;
+    border-radius: 100%;
 }
+
+.inicio{
+    padding: 30px 35px 0px 35px;
+    border: 0px;
+    margin: 0px;
+    background-color: black;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.hoy{
+    padding-top: 30px;
+
+}
+
+.crear{
+    padding-top: 30px;
+
+}
+
 
 
 input.src{
-    padding: 30px 1000px 24px 100px;
+    padding: 30px 1500px 24px 100px;
     outline-color: rgb(78, 181, 225);
     font-size: 32px;
     border-radius: 50px;
@@ -41,20 +59,22 @@ input.src{
     background: #e5e5e5 url(/Pinterest/imagenes/search-icon.png) left ;
     background-repeat: no-repeat;
     background-size: 50px 50px;
-    background-position-x: .5%;
+    background-position-x: 2%;
+}
+
+.menu-derecha img{
+    height: 80px;
+    padding: 30px 20px 4px 20px;
 }
 
 .Galeria{
-    padding: 5px 30px 30px 30px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: space-around;
-    align-self: stretch
-
+    padding: 20px;
+    columns: 5 100px;
 }
 .Galeria img{
+    
+    margin-block: 10px;
     min-height: 400px;
     max-height: 1000px;
-    
+    max-width: 100%;
 }
