@@ -6,16 +6,17 @@
 
 }
 
-header{
-    font-size: 35px;
+#navbar-pinterest{
+    font-size: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding-top: 32px;
+    position: fixed;
 }
 
 
-.logo img{
+#pinterest-icon img{
     height: 100px;
     width: 100px;
     padding: 20px 20px 20px 20px;
@@ -23,7 +24,7 @@ header{
     margin: 0px;
 }
 
-.logo:hover{
+#pinterest-icon:hover{
     background-color: #e5e5e5;
     border-radius: 100%;
 }
@@ -49,7 +50,7 @@ header{
 
 
 
-input.src{
+input.finder{
     padding: 30px 1500px 24px 100px;
     outline-color: rgb(78, 181, 225);
     font-size: 32px;
@@ -63,15 +64,30 @@ input.src{
 }
 
 .menu-derecha img{
-    height: 80px;
-    padding: 30px 20px 4px 20px;
+    height: 90px;
+    padding: 25px 10px 10px 10px;
+    border: 0%;
+    margin: 0%;
+    border-radius: 50%;
 }
 
-.Galeria{
+#profile-img{
+    background-color: #e5e5e5;
+}
+
+#profile-img img{
+    height: 100px;
+    width: 100px;
+    padding: 20px 20px 20px 20px;
+    border: 0px;
+    margin: 0px;
+}
+
+#content{
     padding: 20px;
     columns: 5 100px;
 }
-.Galeria img{
+#content img{
     
     margin-block: 10px;
     min-height: 400px;

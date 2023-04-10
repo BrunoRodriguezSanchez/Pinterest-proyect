@@ -5,3 +5,4 @@ El padding del header y la parte de Galeria esta personalizado para un monitor d
 se corrigio los menus desplegables del lado izquierdo
 
 se esta corrigiendo el logo de pinterest lateral y el backgroubnd del menu inicio
+se esta corrigiendo la position de ña nav bar y se han cambiado los ID 
