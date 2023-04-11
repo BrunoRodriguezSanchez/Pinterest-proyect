@@ -7,90 +7,181 @@
 }
 
 #navbar-pinterest{
-    font-size: 30px;
-    display: flex;
-    flex-direction: row;
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: 40px;
     justify-content: space-around;
-    padding-top: 32px;
+    padding: 15px 100% 15px 15px ;
     position: fixed;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px;
 }
 
 
 #pinterest-icon img{
-    height: 100px;
-    width: 100px;
-    padding: 20px 20px 20px 20px;
-    border: 0px;
-    margin: 0px;
+padding: 10px;
+    height: 60px;
+    width: 60px;
+    
 }
 
 #pinterest-icon:hover{
     background-color: #e5e5e5;
     border-radius: 100%;
+
 }
 
 .inicio{
-    padding: 30px 35px 0px 35px;
-    border: 0px;
-    margin: 0px;
+    padding: 10px;
     background-color: black;
-    color: #fff;
     border-radius: 50px;
 }
 
-.hoy{
-    padding-top: 30px;
-
+.inicio a{
+    text-decoration: none;
+    color: #fff;
 }
+
+.hoy{
+    padding: 15px ;
+}
+
+.hoy a{
+    text-decoration: none;
+    color: black;
+}
+
 
 .crear{
-    padding-top: 30px;
+    padding: 15px 20px 15px 10px;
+    background: #fff url(/Pinterest/imagenes/flecha-abajo.png) right;
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position-x: 110%;
+    background-position-y: 60%;
+}
+
+.crear a{
+    text-decoration: none;
+    color: black;
+}
+
+.sub-menu{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 8%;
+    border: 1px solid #e5e5e5;
+    padding: 20px;
+    top: 50px;
+    left: 160px;
+    
+}
+
+.sub-menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.crear:hover .sub-menu{
+    display: grid;
+    align-items: center;
+}
+
+#crear-1{
+    padding: 10px 10px;
+}
+
+#crear-1:hover{
+    background-color: #e5e5e5;
+    border-radius: 10%;
+}
+
+#crear-2{
+    padding: 10px 10px;
+}
+
+#crear-2:hover{
+    background-color: #e5e5e5;
+    border-radius: 10%;
 
 }
 
-
-
 input.finder{
-    padding: 30px 1500px 24px 100px;
+    padding: 15px 820px 10px 50px;
     outline-color: rgb(78, 181, 225);
-    font-size: 32px;
+    font-size: 15px;
     border-radius: 50px;
     color: rgb(119, 118, 118);
     border: 3px solid #e5e5e5;
     background: #e5e5e5 url(/Pinterest/imagenes/search-icon.png) left ;
     background-repeat: no-repeat;
-    background-size: 50px 50px;
+    background-size: 30px 30px;
     background-position-x: 2%;
 }
 
-.menu-derecha img{
-    height: 90px;
-    padding: 25px 10px 10px 10px;
-    border: 0%;
-    margin: 0%;
-    border-radius: 50%;
+#notifications img{
+    width: 40px;
+    height: 40px;
+    padding: 10px 10px;
 }
 
-#profile-img{
-    background-color: #e5e5e5;
+
+#message img{
+    width: 50px;
+    height: 50px;
+    padding: 10px 10px;
 }
 
 #profile-img img{
-    height: 100px;
-    width: 100px;
-    padding: 20px 20px 20px 20px;
-    border: 0px;
-    margin: 0px;
+    background-color: #e5e5e5;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 10px 10px;
+}
+
+
+
+#menu img{
+    width: 40px;
+    height: 40px;
+    padding: 10px 10px;
+}
+
+
+#menu img:hover{
+    background-color: #e5e5e5;
+    border-radius: 100%;
 }
 
 #content{
-    padding: 20px;
+    padding: 70px 20px 20px 20px;
     columns: 5 100px;
 }
+
 #content img{
     
     margin-block: 10px;
-    min-height: 400px;
+    min-height: 50px;
     max-height: 1000px;
     max-width: 100%;
+    border-radius: 10%;
+}
+
+
+.card-image img{
+    border: 2px solid #e5e5e5;
+    z-index: 1;
+}
+
+.card-image:hover{
+    background: url(/Pinterest/imagenes/guardar.png) bottom;
+    background: url(/Pinterest/imagenes/tres-puntos.jpeg) bottom;
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    z-index: 2;
 }

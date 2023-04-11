@@ -6,3 +6,5 @@ se corrigio los menus desplegables del lado izquierdo
 
 se esta corrigiendo el logo de pinterest lateral y el backgroubnd del menu inicio
 se esta corrigiendo la position de ña nav bar y se han cambiado los ID 
+
+faltan los hovers de lado derecho y los de las card images
