@@ -129,11 +129,46 @@ input.finder{
     padding: 10px 10px;
 }
 
+#hov-notif{
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 1280px;
+    color: #fff;
+    background-color: black;
+    border-radius: 100%;
+    margin: auto;
+    border: 2px solid #e5e5e5;
+    font-size: small;
+    padding: 10px;
+}
+
+#notifications:hover #hov-notif{
+    display: block;
+}
 
 #message img{
     width: 50px;
     height: 50px;
     padding: 10px 10px;
+}
+
+#hov-mes{
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 1340px;
+    color: #fff;
+    background-color: black;
+    border-radius: 100%;
+    margin: auto;
+    border: 2px solid #e5e5e5;
+    font-size: small;
+    padding: 10px;
+}
+
+#message:hover #hov-mes{
+    display: block;
 }
 
 #profile-img img{
@@ -144,6 +179,23 @@ input.finder{
     padding: 10px 10px;
 }
 
+#hov-profile{
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 1390px;
+    color: #fff;
+    background-color: black;
+    border-radius: 100%;
+    margin: auto;
+    border: 2px solid #e5e5e5;
+    font-size: small;
+    padding: 10px;
+}
+
+#profile-img:hover #hov-profile{
+    display: block;
+}
 
 
 #menu img{
@@ -156,6 +208,24 @@ input.finder{
 #menu img:hover{
     background-color: #e5e5e5;
     border-radius: 100%;
+}
+
+#hov-arrow{
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 1340px;
+    color: #fff;
+    background-color: black;
+    border-radius: 100%;
+    margin: auto;
+    border: 2px solid #e5e5e5;
+    font-size: small;
+    padding: 10px;
+}
+
+#menu:hover #hov-arrow{
+    display: block;
 }
 
 #content{

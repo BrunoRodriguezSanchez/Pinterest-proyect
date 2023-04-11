@@ -8,3 +8,5 @@ se esta corrigiendo el logo de pinterest lateral y el backgroubnd del menu inici
 se esta corrigiendo la position de ña nav bar y se han cambiado los ID 
 
 faltan los hovers de lado derecho y los de las card images
+
+se completo todo el nav, solo faltan los hovers de las imagenes
