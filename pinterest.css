@@ -279,6 +279,25 @@ input.finder{
     border-radius: 100%;
 }
 
+.texto{
+    display: none;
+    position:relative;
+    top: -110px;
+    left: -5px;
+    color: black;
+    background-color: red;
+    opacity: .3;
+    border-radius: 20%;
+    font-size: 15px;
+    padding: 10px 30px 10px 30px;
+
+}
+
+.texto:hover{
+    opacity: .7;
+    cursor: pointer;
+}
+
 .guardar img{
     background-color: #e5e5e5;
     opacity: .3;
@@ -317,5 +336,9 @@ input.finder{
 }
 
 .card-image:hover .dots{
+    display: inline-block;
+}
+
+.card-image:hover .texto{
     display: inline-block;
 }
