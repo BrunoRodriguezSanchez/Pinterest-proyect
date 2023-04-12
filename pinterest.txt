@@ -10,3 +10,4 @@ se esta corrigiendo la position de ña nav bar y se han cambiado los ID
 faltan los hovers de lado derecho y los de las card images
 
 se completo todo el nav, solo faltan los hovers de las imagenes
+se completaron los hovers, tienen detalles pero de primera mano funcionan bien

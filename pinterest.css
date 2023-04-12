@@ -11,7 +11,6 @@
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto auto;
     grid-template-rows: 40px;
-    justify-content: space-around;
     padding: 15px 100% 15px 15px ;
     position: fixed;
     background-color: #fff;
@@ -22,7 +21,7 @@
 
 
 #pinterest-icon img{
-padding: 10px;
+    padding: 10px;
     height: 60px;
     width: 60px;
     
@@ -129,6 +128,10 @@ input.finder{
     padding: 10px 10px;
 }
 
+#notifications:hover{
+    cursor: pointer;
+}
+
 #hov-notif{
     display: none;
     position: absolute;
@@ -151,6 +154,10 @@ input.finder{
     width: 50px;
     height: 50px;
     padding: 10px 10px;
+}
+
+#message:hover{
+    cursor: pointer;
 }
 
 #hov-mes{
@@ -177,6 +184,10 @@ input.finder{
     height: 40px;
     border-radius: 50%;
     padding: 10px 10px;
+}
+
+#profile-img:hover{
+    cursor: pointer;
 }
 
 #hov-profile{
@@ -208,6 +219,7 @@ input.finder{
 #menu img:hover{
     background-color: #e5e5e5;
     border-radius: 100%;
+    cursor: pointer;
 }
 
 #hov-arrow{
@@ -245,13 +257,65 @@ input.finder{
 
 .card-image img{
     border: 2px solid #e5e5e5;
-    z-index: 1;
 }
 
 .card-image:hover{
-    background: url(/Pinterest/imagenes/guardar.png) bottom;
-    background: url(/Pinterest/imagenes/tres-puntos.jpeg) bottom;
-    background-repeat: no-repeat;
-    background-size: 100px 100px;
-    z-index: 2;
+    cursor:zoom-in;
+}
+
+.guardar{
+    display: none;
+    position:relative;
+    top: -80px;
+    left: 220px;
+    border-radius: 100%;
+}
+
+.dots{
+    display: none;
+    position:relative;
+    top: -80px;
+    left: -20px;
+    border-radius: 100%;
+}
+
+.guardar img{
+    background-color: #e5e5e5;
+    opacity: .3;
+    width: 40px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.dots img{
+    background-color: #e5e5e5;
+    opacity: .3;
+    width: 40px;
+    height: 10px;
+    border-radius: 100%;
+
+}
+
+.guardar:hover{
+    cursor: pointer;
+}
+
+.dots:hover{
+    cursor: pointer;
+}
+
+.guardar img:hover{
+    opacity: .7;
+}
+
+.dots img:hover{
+    opacity: .7;
+}
+
+.card-image:hover .guardar{
+    display: inline-block;
+}
+
+.card-image:hover .dots{
+    display: inline-block;
 }
